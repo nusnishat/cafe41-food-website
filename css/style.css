@@ -1,0 +1,62 @@
+.text-color{
+    color: rgb(228, 40, 96);
+    font-weight: 700;
+    font-size: 50px;"
+}
+.card:hover{
+    transform: scale(1.05);
+}
+/* navbar */
+nav{
+    color: white;
+    font-weight: 600;
+}
+.logo-color{
+    color: rgb(228, 40, 96);
+    font-weight: 900;
+}
+/* welcome */
+.welcome-banner img{
+    position: relative;
+}
+.welcome-title{
+    position:absolute;
+    top: 0rem;
+    z-index: 1;
+    color: white;
+    margin: 15%;
+}
+.title-heading h1{
+    font-weight: 700;
+}
+.btn-color{
+   background-color:rgb(228, 40, 96);
+   color: white;
+}
+.title-btn:hover{
+    transform: scale(1.2);
+    transition: 40ms ease-in-out;
+} 
+/* About us */
+.about-us img{
+    width:80%;
+    height: 90%;
+}
+/* menu */
+.menu-items img{
+    width: 300px;
+}
+/* testimonials */
+.testimonials-people h6{
+    color: rgb(228, 40, 96);
+    text-align: center;
+    font-weight: 700;
+}
+.testimonials-people img{
+    clip-path: circle();
+    width: 5rem;
+}
+/* contact us */
+.contact .card:hover{
+    transform: none;
+}
