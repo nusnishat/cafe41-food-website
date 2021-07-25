@@ -38,7 +38,9 @@ nav{
     font-size: 60px;
     text-align: center;
 }
-
+.title-description p{
+    font-size: 20px;
+}
 .btn-color{
    background-color:rgb(228, 40, 96);
    color: white;
