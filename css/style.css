@@ -1,3 +1,7 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
 .text-color{
     color: rgb(228, 40, 96);
     font-weight: 700;
@@ -16,8 +20,11 @@ nav{
     font-weight: 900;
 }
 /* welcome */
-.welcome-banner img{
-    position: relative;
+.welcome{
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
 }
 .welcome-title{
     position:absolute;
@@ -28,7 +35,10 @@ nav{
 }
 .title-heading h1{
     font-weight: 700;
+    font-size: 60px;
+    text-align: center;
 }
+
 .btn-color{
    background-color:rgb(228, 40, 96);
    color: white;
